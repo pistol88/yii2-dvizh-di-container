@@ -1,0 +1,32 @@
+{
+    "name": "pistol88/yii2-dvizh-dic",
+    "description": "contain all relations in Dvizh module's area",
+    "keywords": ["yii2", "yii 2", "application", "cart", "shop", "module", "pistol88", "dvizh", "dic", "dip"],
+    "homepage": "https://github.com/pistol88/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/pistol88/yii2-dvizh-dic"
+    },
+    "authors": [
+        {
+            "name": "Ilya Pistol",
+            "email": "pistol88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "dvizh\\dic\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "dvizh\\dic\\Bootstrap"
+    }
+}
